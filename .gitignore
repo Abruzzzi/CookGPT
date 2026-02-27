@@ -1,0 +1,43 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.env
+.env/
+.venv/
+
+# =========================
+# IDE / Editor files
+# =========================
+.idea/
+.vscode/
+
+# =========================
+# Mac system files
+# =========================
+.DS_Store
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Large raw datasets (recommended to ignore)
+# =========================
+RAW_recipes.csv
+RAW_interactions.csv
+
+# =========================
+# Environment variables / secrets
+# =========================
+.env
